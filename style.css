@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito:wght@500&display=swap');
+
+/*
+  --background: #1C6758;
+  --font: #EEF2E6;
+  --secondcolor: #3D8361;
+  --tertiary: #D6CDA4;
+*/
+
+
+@media (min-width: 768px) {
+    header {
+        font-size: 1.6rem;
+    }
+    
+    .gallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    
+    .ImageCard {
+        max-width: 28%;
+    }
+    
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.title {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 600%;
+    margin-bottom: 200px;
+}
+
+
+.ImageCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem 4rem;
+}
+
+.ImageCard img {
+    border-color: #3D8361;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.ImageCard a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+cite {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+.citation {
+    font-weight: lighter;
+    opacity: 0.5;
+}
+
+.cardText {
+    background-color: #05595B;
+    color: #E2D784;
+    margin-top: 2rem;
+    text-align: center;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to left bottom, #1c6758, #246e5b, #2c755d, #347c5f, #3d8361);
+    color: #EEF2E6;
+    margin: 0;
+} 
